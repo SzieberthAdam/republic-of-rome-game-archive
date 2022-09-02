@@ -1,0 +1,103 @@
+# <numplayers> <senators/player> <redcards/player>
+# <totalsenators> <redcards> <extrareds> <extraredlist> <wars> <prov1> <prov2>
+5 4 4
+25 42 6 14 12 6 0
+1  Cornelius    4 3  9 5
+2  Fabius       4 2  9 5
+3  Valerius     1 2 10 5
+4  Julius       4 3  9 4
+5  Claudius     2 3  7 4
+6  Manlius      3 2  7 4
+7  Fulvius      2 2  8 4
+8  Furius       3 3  8 3
+9  Aurelius     2 3  7 3
+10 Junius       1 2  8 3
+11 Papirius     1 2  6 3
+12 Acilius      2 2  7 3
+13 Flaminius    4 2  6 3
+14 Aelius       3 4  7 2
+15 Sulpicius    3 2  8 2
+16 Calpurnius   1 2  9 2
+17 Plautius     2 1  6 2
+18 Quinctius    3 2  6 1
+19 Aemilius     4 2  8 1
+20 Terentius    2 1  6 1
+21 Servilius    3 4  9 4
+22 Porcius      2 4 10 1
+23 Popillius    1 3  7 3
+24 Cassius      3 3  9 3
+25 Sempronius   1 3  6 3
+Tax Farmer 1
+Tax Farmer 2
+Tax Farmer 3
+Tax Farmer 4
+Tax Farmer 5
+Tax Farmer 6
+Land Commissioner
+Harbor Fees
+Mining
+Armaments
+Ship Building
+Egyptian Grain
+Sicilian Grain
+1B  Scipio     4 3 7 5
+1C  Sulla      4 4 5 5
+7A  Flaccus    2 5 6 5
+21A Glaucia    1 3 3 2
+23A Laenas     2 5 6 4
+25A T Gracchus 1 4 6 3
+25B C Gracchus 1 5 6 4
+27A Marius     5 3 6 5
+Calpurnian Law
+Acilian Law
+Servilian Law
+Tradition Erodes
+Military Reforms
+Mob Violence
+Murder of a Tribune
+Murder of a Tribune
+Graft
+Influence Peddling
+Assassin
+Assassin
+Secret Bodyguard
+Secret Bodyguard
+Tribune
+Tribune
+Tribune
+Tribune
+Tribune
+Tribune
+Tribune
+Blackmail*
+Seduction*
+Assassin*
+Influence Peddling*
+Secret Bodyguard*
+Tribune*
+Tribune*
+Tribune*
+Tribune*
+Tribune*
+Tribune*
+Tribune*
+Tribune*
+Tribune*
+Germanic Migrations
+Jugurthine War
+3rd Punic War
+3rd Macedonian War
+4th Macedonian War
+Sicilian Slave Revolt 135BC
+Sicilian Slave Revolt 104BC
+Spanish Revolt
+Numantine War
+Cilician Pirates
+Viriathus
+Pergamene Bequest
+Sicily
+Sardinia-Corsica
+Illyricum
+Cisalpine Gaul
+Further Spain
+Nearer Spain

@@ -1,0 +1,36 @@
+.redcard {color: white; background-color: red; font-weight: bold; border : thin solid black }
+.redcard-e {color: red; background-color: white; font-weight: bold; border : thin solid black }
+.redcard-m {color: red; background-color: rgb(200,200,200); font-weight: bold; border : thin solid black }
+.redcard-l {color: red; background-color: pink; font-weight: bold; border : thin solid black }
+.redcard-c {color: red; background-color: rgb(200,200,255); font-weight: bold; border : thin solid black }
+.devincome {color: black; background-color: rgb(255,105,180); font-weight: normal; border : thin solid black }
+.income {color: black; background-color: rgb(0,191,255); font-weight: normal; border : thin solid black }
+.honest {color: white; background-color: rgb(200,200,200); font-weight: bold; border : thin solid black }
+.corrupt {color: black; background-color: rgb(200,200,200); font-weight: bold; font-style: italic; border : thin solid black }
+.talents {color: black; background-color: rgb(230,230,0); font-weight: normal }
+.tribune {color: black; background-color: yellow; font-weight: bold; border : thin solid black }
+.event {color: black; background-color: rgb(150,200,150); font-weight: bold; border : thin solid black }
+.leader {color: green; background-color: rgb(200,200,200); font-weight: bold; border : thin solid black }
+.activewar {color: rgb(0,0,0); background-color: rgb(200,200,200); font-weight: bold; border : thin solid black }
+.inactivewar {color: black; background-color: rgb(255,255,255); font-weight: bold; border : thin solid black }
+.senator {color: black; background-color: rgb(230,230,230); font-weight: bold; border : thin solid black; }
+.notinrome {color: white; background-color: rgb(200,200,200); font-weight: bold; border : thin solid black }
+.statesman {color: red; background-color: rgb(230,230,230); font-weight: bold; border : thin solid black }
+.statesmannotinrome {color: red; background-color: rgb(200,200,200); font-weight: bold; border : thin solid black }
+.law {color: white; background-color: red; font-weight: bold; border : thin solid black }
+.province {color: white; background-color: rgb(0,191,255); font-weight: bold; border : thin solid black }
+.devprovince {color: rgb(255,255,255); background-color: rgb(255,105,180); font-weight: bold; border : thin solid black }
+.corruptprovince {color: black; background-color: rgb(0,191,255); font-weight: bold; font-style: italic; border : thin solid black }
+.devcorruptprovince {color: black; background-color: rgb(255,105,180); font-weight: bold; font-style: italic; border : thin solid black }
+.knight {color: white; background-color: rgb(75,75,75); font-weight: bold; border : thin solid black }
+.office {color: black; background-color: red; font-weight: bold; border : thin solid black }
+.priorconsul {color: black; background-color: rgb(0,230,0); font-weight: bold; border : thin solid black }
+.priest {color: white; background-color: red; font-weight: bold; border : thin solid black }
+.legion {color: white; background-color: purple; font-weight: bold; border : thin solid black }
+.exile {color: black; background-color: white; font-weight: bold; border : thin solid black }
+.captive {color: white; background-color: blue; font-weight: bold; border : thin solid black }
+.rebel {color: red; background-color: rgb(75,75,75); font-weight: bold; border : thin solid black }
+.concession {color: white; background-color: orange; font-weight: bold; border : thin solid black }
+.landbill {color: black; background-color: orange; font-weight: bold; border : thin solid black }
+.wbox {color: black; background-color: white; font-weight: bold; border : thin solid black }
+.box {color: black; border : thin solid black }

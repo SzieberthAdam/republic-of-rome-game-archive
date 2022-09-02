@@ -1,0 +1,191 @@
+                        ---------------------------
+                        Bill's Cyberboard Utilities
+                                    Help
+                        ---------------------------
+                               Bill Gustafson
+                                May 6, 1998
+                        ---------------------------
+
+I've decided to include the help output as a file, just to make things
+a little clearer.  This is also available for each program by running
+"programname -h."
+
+usage: annotate 
+This program places text and bitmaps defined in a configuration file into a 
+counter bitmap.  The text and bitmaps are as you define.  I am distributing
+simple fonts for 3x5, and 3x7 characters, plus a few standard NATO symbols.
+These 'fonts' are defined by the bitmap name 'xychar.bmp' and are located in
+bmp subdirectory so 35a.bmp is the bitmap for a 3x5 A character.  Since FAT
+partitions ignore case, so do I.  If you want lower case fonts, MAKE THEM!
+you have 100 'fonts' available with 40 or 50 characters each.  Note that
+not all the characters in a given font are the same width - this is a feature!
+These bitmaps are all 24-bit, even though they are black and white.  White
+in the bitmap is the default 'transparent' color, and black will be converted
+to the color specified in the definition line (see below).
+
+The configuration file is defined as follows:
+
+input bitmap filename  
+[definition lines for text]
+[definition lines for bitmaps]
+output bitmap filename  
+
+input bitmap filename  
+[definition lines for text]
+[definition lines for bitmaps]
+output bitmap filename  
+
+Each set of input bitmap, definition lines, and output bitmap is called a 
+counter definition.  Note that a blank line may be left between them.
+
+A definition line for text consists of the following elements:
+text xstart ystart size orientation color
+text is the text to put in the counter bitmap (NOTE: no whitespace) 
+xstart and ystart are where the upper left corner goes.  A 'c' for either will
+	center the text in that dimension (NOTE: y=0 is the top!)
+size is xy pixel dimension of the 'font'
+orientation is either V for vertical or H for horizontal
+color is the hexadecimal representation of the color in Blue, Green, Red order
+so FFFFFF is white, 000000 is black, 808080 is grey
+FF0000 is bright blue and so on.
+
+A definition line for bitmaps consists of the following elements:
+bitmapfile xstart ystart color
+bitmapfile is the name of the bitmap
+xstart and ystart are as described above
+color is the same as above, except that the keyword 'replace' can be
+used, in which case the entire bitmap is placed in the counter bitmap.
+
+So for example -  a configuration file like:
+input.bmp
+4-4-8 2 2 37 H 000000
+infantry.bmp 10 10 000000
+output.bmp
+
+will generate a standard 4-4-8 infantry unit from the input.bmp.
+
+There can be as many definition lines as you want, but there's no error 
+catching for overlapping the bitmaps - they are drawn on top of one another.
+A blank line may be left between counter definitions.
+A # at the beginning of a line will comment it out.
+
+There can also be as many input file, definition line, and output file lines
+as you can stomach waiting for.  So, you can use bitmaps created earlier in 
+the configuration file later in the same configuration file - for example to
+make a default Slobovian infantry unit, and then fill in specific unit info.
+Remember what your default input and output directories are, though.
+
+An output file which is the config file for the bmptogtl program is generated.
+
+Command-line switches specific to this program are:
+	-o Output Filename - sets output file (default ./bmptogtl.cfg) 
+	-ip input path to bitmaps - sets path to input bitmaps (default ./bmp) 
+	-op output path - sets path for output counter bitmaps (default ./) 
+
+Unimplemented features: 
+	error catching
+	support for bitmaps other than 24-bit
+	support for real fonts
+	support for transparent colors other than white
+
+Standard command line switches for BCU (Bill's Cyberboard Utilities) are:
+	-f Filename - sets configuration file (default annotate.cfg) 
+	-h - usage screen
+These switches are reserved but generally unsupported
+	-q - sets quiet mode (no output to stdout)
+	-v - sets verbose mode (lots of output to stdout)
+	-d - sets debug mode
+	-i - sets interactive mode
+
+usage: bmptogtl
+This program takes a list of bitmaps in a config file and places them into
+a cyberboard gtl tile library file.  It currently creates the half size
+tile by taking the center of the fullsize tile or by specfiying a start
+point as listed below.
+
+Command-line switches specific to this program are:
+	-o Output Filename - sets output file (default ./output.gtl) 
+	-x subsample start point - (default (x length)/4) 
+	-y subsample start point - (default (y length)/4) 
+
+Unimplemented features: 
+	nearest neighbor, bilinear interpolation for subsampling.
+	half size bitmap as second entry on each line
+	error catching
+	support for bitmaps other than 24-bit
+
+Standard command line switches for BCU (Bill's Cyberboard Utilities) are:
+	-f Filename - sets configuration file (default bmptogtl.cfg) 
+	-h - usage screen
+These switches are reserved but generally unsupported
+	-q - sets quiet mode (no output to stdout)
+	-v - sets verbose mode (lots of output to stdout)
+	-d - sets debug mode
+	-i - sets interactive mode
+
+usage: gtltobmp
+This program takes a cyberboard tile library file and converts them into
+a series of bitmaps.  There is no configuration file, just the gtl file name
+
+Command-line switches specific to this program are:
+	-o Output Filename prefix - sets output file prefix (default: no prefix)
+
+Unimplemented features: 
+	half size bitmap as output
+	error catching
+	support for bitmaps other than 24-bit
+
+Standard command line switches for BCU (Bill's Cyberboard Utilities) are:
+	-f Filename - sets configuration file (default gtltobmp.cfg) 
+	-h - usage screen
+These switches are reserved but generally unsupported
+	-q - sets quiet mode (no output to stdout)
+	-v - sets verbose mode (lots of output to stdout)
+	-d - sets debug mode
+	-i - sets interactive mode
+
+usage: scntobmp 
+This program takes a scanned bitmap and places each counter image into a 
+separate bitmap file.  The configuration file is defined as follows:
+bitmap file name
+[definition line for subsampling]
+
+The definition line consists of the following elements:
+xstart ystart xextent yextent #xtiles #ytiles fileprefix 
+x and y start define where in the bitmap to start subsampling 
+x and y extent define how big the tiles are in pixels 
+#x and y tiles define how many tiles in each dimension to subsample
+fileprefix defines the start of the bitmap names which will be
+fileprefix[y tile][x tile].bmp
+
+So for example -  a configuration file like:
+test.bmp
+19 22 30 30 10 2 g1f
+would start at x = 19, and y = 22 in the file test.bmp, and strip out 
+10 BMP files next to each other, and then process another line of 10 
+and name them g1f00.bmp - g1f19.bmp.  Each BMP would be 30 pixels on a side.
+This corresponds to a standard panel in a set of die cut counters.
+
+There can be as many definition lines as you want, but there's no 
+error catching for duplicate file names.
+
+An output file which is the config file for the bmptogtl program is generated.
+A negative value for #xtiles will cause the bitmaps to be listed in reverse
+x order in the configuration file.  This is useful for the backsides of counters
+so that the gtl files for front and back are in the same order. 
+
+Command-line switches specific to this program are:
+	-o Output Filename - sets output file (default ./bmptogtl.cfg) 
+
+Unimplemented features: 
+	error catching
+	support for bitmaps other than 24-bit
+
+Standard command line switches for BCU (Bill's Cyberboard Utilities) are:
+	-f Filename - sets configuration file (default scntobmp.cfg) 
+	-h - usage screen
+These switches are reserved but generally unsupported
+	-q - sets quiet mode (no output to stdout)
+	-v - sets verbose mode (lots of output to stdout)
+	-d - sets debug mode
+	-i - sets interactive mode

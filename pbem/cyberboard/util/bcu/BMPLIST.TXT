@@ -1,0 +1,103 @@
+                        ---------------------------
+                        Bill's Cyberboard Utilities
+                                  Bmplist
+                        ---------------------------
+                               Bill Gustafson
+                                May 1, 1998
+                        ---------------------------
+
+Here's a list of all the "font" bmps I'm distributing with Bill's
+Cyberboard Utilities.  I will probably add more bmps to this list, as
+time goes on.  If you make any, let me know, and I'll include them in
+the distribution.
+
+24i.BMP
+25i.BMP
+331.BMP
+332.BMP
+33i.BMP
+33x.BMP
+35-.BMP
+350.BMP
+351.BMP
+352.BMP
+353.BMP
+354.BMP
+355.BMP
+356.BMP
+357.BMP
+358.BMP
+359.BMP
+35A.BMP
+35B.BMP
+35C.BMP
+35D.BMP
+35E.BMP
+35F.BMP
+35G.BMP
+35h.BMP
+35I.BMP
+35J.BMP
+35K.BMP
+35L.BMP
+35M.BMP
+35N.BMP
+35O.BMP
+35p.BMP
+35q.BMP
+35R.BMP
+35S.BMP
+35T.BMP
+35U.BMP
+35V.BMP
+35W.BMP
+35X.BMP
+35Y.BMP
+35Z.BMP
+37(.BMP
+37).BMP
+37-.BMP
+370.BMP
+371.BMP
+372.BMP
+373.BMP
+374.BMP
+375.BMP
+376.BMP
+377.BMP
+378.BMP
+379.BMP
+570.BMP
+578.BMP
+579.BMP
+590.BMP
+591.BMP
+592.BMP
+593.BMP
+594.BMP
+595.BMP
+596.BMP
+597.BMP
+598.BMP
+599.BMP
+airborne.BMP
+armor.BMP
+arty.BMP
+at.BMP
+base.BMP
+blue.bmp
+circle.BMP
+corners.BMP
+exploit.BMP
+genbase.BMP
+gencorners.BMP
+genframe.BMP
+genlowright.BMP
+genupleft.BMP
+infantry.bmp
+lowright.BMP
+smcircle.BMP
+tiles.BMP
+upleft.BMP
+
+

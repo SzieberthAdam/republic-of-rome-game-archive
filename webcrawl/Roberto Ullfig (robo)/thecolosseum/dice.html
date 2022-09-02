@@ -1,0 +1,83 @@
+<body bgcolor="#eeeeee" text="#000000">
+<html>
+<body>
+<pre>
+
+Note: DO NOT REPLY TO THIS MESSAGE!
+Replies to dice-admin@nomic.net vanish into a seldom-read mailbox.
+
+The dice server provides impartial rolls for players of board games
+by mail.  To use, send a message to dice@pbm.com containing:
+
+#P < mail address of a player >     [up to 10 #P lines allowed]
+#S < no. of sides on every die >
+#D < no. of dice for every roll >
+#R < no. of rolls requested >
+#L < no. of rolls printed per line in output >
+#C < comments >                     [up to 100 #C lines allowed]
+#T < subject line of returned mail >
+
+Number of sides, dice, and rolls must be in the range 1-1000, inclusive.
+Number of rolls printed per line must be in the range 1-20, inclusive.
+
+For example:
+
+   From: skrenta@pbm.com (Rich Skrenta)
+   To: dice@nomic.net
+   Subject: sample
+
+   #P desj@ccr-p.ida.org
+   #P 74361.2617@compuserve.com
+   #S 6
+   #D 1
+   #R 2
+   #L 2
+   #C Line 1: 7 German subs (restricted) vs. 4 fleets, 3 ASW
+   #C No SAC.
+   #C Please declare sub warfare for next turn.
+   #T A3R Game 3H, Spring 1942, SW Resolution
+
+Response:
+
+   From: dice-admin@nomic.net (Dice server)
+   Subject: A3R Game 3H, Spring 1942, SW Resolution
+   To: Rich Skrenta < skrenta@pbm.com >
+   Cc: desj@ccr-p.ida.org
+   Cc: 74361.2617@compuserve.com
+
+   Dice rolls requested by: Rich Skrenta < skrenta@pbm.com >
+
+   # Line 1: 7 German subs (restricted) vs. 4 fleets, 3 ASW
+   # No SAC.
+   # Please declare sub warfare for next turn.
+   
+   No. of sides on every die:      6
+   No. of dice for every roll:     1
+   No. of dice rolls requested:    2
+   No. of rolls per line:          2
+   
+   4   6
+
+The dice server PGP signs all responses.  The PGP public key for the dice
+server appears below.  DO NOT encrypt your submissions to the dice server.
+The PGP block is provided so that you may verify the signature on messages
+received from the dice server, if you are so inclined.
+
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: 2.6.1
+
+mQCNAzBWT0MAAAEEAMdEGMGOgGmkSftqYMsigTWGuX/3UPM0Lg1P8HiyTnsBxsPU
+eCXsbhsox6yrTzJrLw/dLtcdCrwF1Kp+l5dLC40lKSrZ+Cx/9EUnxJlqbWU2YkVs
+PikoqJey/Jbi/NVkXdm1TF0s6dv1Haf+YD+ph9ozua198Ng10T8NitsTFjcVAAUV
+tCBEaWNlIFNlcnZlciA8ZGljZS1hZG1pbkBwYm0uY29tPg==
+=+0Q1
+-----END PGP PUBLIC KEY BLOCK-----
+
+The dice server is a public service provided by Shadow Island Games.
+http://www.pbm.com/ or email to info@pbm.com for information.
+
+
+</pre>
+</body>
+</html>

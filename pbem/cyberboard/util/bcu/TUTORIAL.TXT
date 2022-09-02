@@ -1,0 +1,90 @@
+                        ---------------------------
+                        Bill's Cyberboard Utilities
+                                  Tutorial
+                        ---------------------------
+                               Bill Gustafson
+                                May 6, 1998
+                        ---------------------------
+
+This file gives examples on how to use the various utilites I've
+written for making cyberboard game sets.  There are four programs -
+annotate.exe, scntobmp.exe, bmptogtl.exe, and gtltobmp.exe.
+
+After unzipping the files, look at the file generic.cfg in your
+favorite text editor, and look at the documentation for annotate
+(this is located in the file help.txt, and is also available at the
+command-line by running annotate -h). The first part of generic.cfg
+creates a blank counter bmp file, with a blue background, which is
+placed in the bmp directory, and is called blue.bmp.  Note that this
+bitmap assumes that bright green is set for the transparent color in
+Cyberboard. This is then used to create the bluearm.bmp, blueinf.bmp,
+and blueairb.bmp files.
+
+run the following program at a dos prompt:
+
+annotate -f generic.cfg
+
+This will create the blue forces from the generic gamebox, as a set
+of bitmaps called blueinf.bmp, bluearm.bmp, and blueairb.bmp.  It
+also creates a file called bmptogtl.cfg, which lists off the bitmaps
+for the bmptogtl program.  Look at these in your favorite bitmap
+editor, if you want.
+
+Next we'll create the gtl file for importing into Cyberboard.  This
+is done by running the following at the DOS prompt:
+
+bmptogtl
+
+Since the annotate program created a bmptogtl.cfg you don't need to
+specify it explicitly.  This creates a tile library file called
+output.gtl, which consists of the blank counter, and the three unit
+counters.  Import this into Cyberboard using the Load Tile library
+file option under project (you have to have a tile image group
+selected), and you should see the equivalent of the generic counters
+for blue (they're not identical, because I use slightly different
+NATO counters).
+
+These two programs should make creating cyberboard counter much
+easier.  I think that it's probably not any faster than creating them
+by cutting and pasting in the cyberboard pixel editor, but I
+personally don't have patience for that, so I made these programs to
+do it from text files.  I also wrote two other programs while working
+on this that may be helpful.  These are described next.
+
+While you're working with Cyberboard export those bitmaps back out to
+a new filename (using the save to tile library option) and then use
+the gtltobmp program to split out the bitmaps again.
+
+gtltobmp -f filename.gtl
+
+where filename.gtl is the name you specified when you saved them.  Be
+aware that none of these programs work with bitmaps that aren't
+24-bit (like the original generic counters, for example).
+
+This just leaves a demo of scntobmp.  Run the following:
+
+annotate -f paste.cfg -ip ./
+
+This creates a bitmap called panel.bmp which mimics a scanned bitmap. 
+It has two rows of five counters.  It also overwrote the old
+bmptogtl.cfg file.  
+
+Look at scntobmp.cfg, and the documentation for scntobmp.  Now run:
+
+scntobmp
+
+and the infantry, armor and airborne bitmaps are split out, each with
+it's own prefix.  Note that this also overwrites the bmptogtl.cfg
+that annotate wrote, so that a new gtl file can be generated.
+
+That's it.  I also re-wrote some programs for mosaicing images, that I
+use for piecing maps together, but I'm not willing to work on them to
+make them user-friendly, so they won't be released.
+
+
+
+
+
+
+
+

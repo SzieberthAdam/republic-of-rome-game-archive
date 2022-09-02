@@ -1,0 +1,439 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <style type="text/css">
+<!--
+@import url(RoRStyles.css);
+-->
+  </style>
+  <script type="text/javascript">
+<!--
+function popup(mylink, windowname)
+{
+if (! window.focus)return true;
+var href;
+if (typeof(mylink) == 'string')
+href=mylink;
+else
+href=mylink.href;
+window.open(href, windowname, 'width=400,height=300,scrollbars=yes');
+return false;
+}
+//-->
+  </script>
+  <title>Late Republic Scenario</title>
+</head>
+<body style="color: rgb(0, 0, 0); background-color: rgb(238, 238, 238);">
+<h1>Late Republic Scenario</h1>
+<h4>11 Provinces at start<br>
+</h4>
+<pre><a style="text-decoration: none;"
+ onclick="return popup(this, 'Africa')"
+ href="cards/Africa.html"><span
+ class="province"> Africa </span></a><br><a
+ style="text-decoration: none;" onclick="return popup(this, 'Asia')"
+ href="cards/Asia.html"><span
+ class="province"> Asia </span></a><br><a style="text-decoration: none;"
+ onclick="return popup(this, 'CiliciaCyprus')"
+ href="cards/CiliciaCyprus.html"><span
+ class="province"> Cilicia-Cyprus </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'CisalpineGaul')"
+ href="cards/CisalpineGaul.html"><span
+ class="devprovince"> Cisalpine Gaul </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'FurtherSpain')"
+ href="cards/FurtherSpain.html"><span
+ class="devprovince"> Further Spain </span></a><br><a
+ style="text-decoration: none;" onclick="return popup(this, 'Greece')"
+ href="cards/Greece.html"><span
+ class="province"> Greece  </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'Illyricum')"
+ href="cards/Illyricum.html"><span
+ class="devprovince"> Illyricum </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'NarboneseGaul')"
+ href="cards/NarboneseGaul.html"><span
+ class="province"> Narbonese Gaul </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'NearerSpain')"
+ href="cards/NearerSpain.html"><span
+ class="devprovince"> Nearer Spain </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'SardiniaCorsica')"
+ href="cards/SardiniaCorsica.html"><span
+ class="devprovince"> Sardinia-Corsica </span></a><br><a
+ style="text-decoration: none;" onclick="return popup(this, 'Sicily')"
+ href="cards/Sicily.html"><span
+ class="devprovince"> Sicily </span></a><br></pre>
+<h4>3 Laws at start</h4>
+<pre><a style="text-decoration: none;"
+ onclick="return popup(this, 'CalpurnianLaw')"
+ href="cards/CalpurnianLaw.html"><span
+ class="redcard"> Calpurnian Law </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'TraditionErodes')"
+ href="cards/TraditionErodes.html"><span
+ class="redcard"> Tradition Erodes </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'MilitaryReforms')"
+ href="cards/MilitaryReforms.html"><span
+ class="redcard"> Military Reforms </span></a><br></pre>
+<h4>30 Senators</h4>
+<pre><a onclick="return popup(this, 'Cornelius')"
+ style="text-decoration: none;"
+ href="cards/Cornelius.html"><span
+ class="senator">  1  Cornelius       4  3  9  5    </span></a><br><a
+ onclick="return popup(this, 'Fabius')" style="text-decoration: none;"
+ href="cards/Fabius.html"><span
+ class="senator">  2  Fabius          4  2  9  5    </span></a><br><a
+ onclick="return popup(this, 'Valerius')" style="text-decoration: none;"
+ href="cards/Valerius.html"><span
+ class="senator">  3  Valerius        1  2 10  5    </span></a><br><a
+ onclick="return popup(this, 'Julius')" style="text-decoration: none;"
+ href="cards/Julius.html"><span
+ class="senator">  4  Julius          4  3  9  4    </span></a><br><a
+ onclick="return popup(this, 'Claudius')" style="text-decoration: none;"
+ href="cards/Claudius.html"><span
+ class="senator">  5  Claudius        2  3  7  4    </span></a><br><a
+ onclick="return popup(this, 'Manlius')" style="text-decoration: none;"
+ href="cards/Manlius.html"><span
+ class="senator">  6  Manlius         3  2  7  4    </span></a><br><a
+ onclick="return popup(this, 'Fulvius')" style="text-decoration: none;"
+ href="cards/Fulvius.html"><span
+ class="senator">  7  Fulvius         2  2  8  4    </span></a><br><a
+ onclick="return popup(this, 'Furius')" style="text-decoration: none;"
+ href="cards/Furius.html"><span
+ class="senator">  8  Furius          3  3  8  3    </span></a><br><a
+ onclick="return popup(this, 'Aurelius')" style="text-decoration: none;"
+ href="cards/Aurelius.html"><span
+ class="senator">  9  Aurelius        2  3  7  3    </span></a><br><a
+ onclick="return popup(this, 'Junius')" style="text-decoration: none;"
+ href="cards/Junius.html"><span
+ class="senator"> 10  Junius          1  2  8  3    </span></a><br><a
+ onclick="return popup(this, 'Papirius')" style="text-decoration: none;"
+ href="cards/Papirius.html"><span
+ class="senator"> 11  Papirius        1  2  6  3    </span></a><br><a
+ onclick="return popup(this, 'Acilius')" style="text-decoration: none;"
+ href="cards/Acilius.html"><span
+ class="senator"> 12  Acilius         2  2  7  3    </span></a><br><a
+ onclick="return popup(this, 'Flaminius')"
+ style="text-decoration: none;"
+ href="cards/Flaminius.html"><span
+ class="senator"> 13  Flaminius       4  2  6  3    </span></a><br><a
+ onclick="return popup(this, 'Aelius')" style="text-decoration: none;"
+ href="cards/Aelius.html"><span
+ class="senator"> 14  Aelius          3  4  7  2    </span><br></a><a
+ onclick="return popup(this, 'Sulpicius')"
+ style="text-decoration: none;"
+ href="cards/Sulpicius.html"><span
+ class="senator"> 15  Sulpicius       3  2  8  2    </span><br></a><a
+ onclick="return popup(this, 'Calpurnius')"
+ style="text-decoration: none;"
+ href="cards/Calpurnius.html"><span
+ class="senator"> 16  Calpurnius      1  2  9  2    </span><br></a><a
+ onclick="return popup(this, 'Plautius')" style="text-decoration: none;"
+ href="cards/Plautius.html"><span
+ class="senator"> 17  Plautius        2  1  6  2    </span><br></a><a
+ onclick="return popup(this, 'Quinctius')"
+ style="text-decoration: none;"
+ href="cards/Quinctius.html"><span
+ class="senator"> 18  Quinctius       3  2  6  1    </span><br></a><a
+ onclick="return popup(this, 'Aemilius')" style="text-decoration: none;"
+ href="cards/Aemilius.html"><span
+ class="senator"> 19  Aemilius        4  2  8  1    </span><br></a><a
+ onclick="return popup(this, 'Terentius')"
+ style="text-decoration: none;"
+ href="cards/Terentius.html"><span
+ class="senator"> 20  Terentius       2  1  6  1    <br></span></a><a
+ onclick="return popup(this, 'Servilius')"
+ style="text-decoration: none;"
+ href="cards/Servilius.html"><span
+ class="senator"> 21  Servilius       3  4  9  4    </span><br></a><a
+ onclick="return popup(this, 'Porcius')" style="text-decoration: none;"
+ href="cards/Porcius.html"><span
+ class="senator"> 22  Porcius         2  4 10  1    </span><br></a><a
+ onclick="return popup(this, 'Popillius')"
+ style="text-decoration: none;"
+ href="cards/Popillius.html"><span
+ class="senator"> 23  Popillius       1  3  7  3    </span><br></a><a
+ onclick="return popup(this, 'Cassius')" style="text-decoration: none;"
+ href="cards/Cassius.html"><span
+ class="senator"> 24  Cassius         3  3  9  3    </span><br></a><a
+ onclick="return popup(this, 'Sempronius')"
+ style="text-decoration: none;"
+ href="cards/Sempronius.html"><span
+ class="senator"> 25  Sempronius      1  3  6  3    </span><br></a><a
+ onclick="return popup(this, 'Octavius')" style="text-decoration: none;"
+ href="cards/Octavius.html"><span
+ class="senator"> 26  Octavius        2  3  9  4    </span><br></a><a
+ onclick="return popup(this, 'Marius')" style="text-decoration: none;"
+ href="cards/Marius.html"><span
+ class="senator"> 27  Marius          4  2  9  4    </span><br></a><a
+ onclick="return popup(this, 'Tullius')" style="text-decoration: none;"
+ href="cards/Tullius.html"><span
+ class="senator"> 28  Tullius         2  3  7  3    </span><br></a><a
+ onclick="return popup(this, 'Licinius')" style="text-decoration: none;"
+ href="cards/Licinius.html"><span
+ class="senator"> 29  Licinius        3  2  9  3    </span><br></a><a
+ onclick="return popup(this, 'Pompeius')" style="text-decoration: none;"
+ href="cards/Pompeius.html"><span
+ class="senator"> 30  Pompeius        2  2  7  2    </span><br></a></pre>
+<h4>6 Statesman</h4>
+<pre><a style="text-decoration: none;"
+ onclick="return popup(this, 'Caesar')"
+ href="cards/Caesar.html"><span
+ class="statesman">  4A Caesar          6  5  9  5  2 </span></a><br><a
+ onclick="return popup(this, 'CatoTheYounger')"
+ style="text-decoration: none;"
+ href="cards/CatoTheYounger.html"><span
+ class="statesman"> 22B Cato            1  6 11  4    </span></a><br><a
+ onclick="return popup(this, 'Cicero')" style="text-decoration: none;"
+ href="cards/Cicero.html"><span
+ class="statesman"> 28A Cicero          1  6 10  3  1 </span><br></a><a
+ onclick="return popup(this, 'Crassus')" style="text-decoration: none;"
+ href="cards/Crassus.html"><span
+ class="statesman"> 29A Crassus         2  2  4  5    </span><br></a><a
+ onclick="return popup(this, 'Lucullus')" style="text-decoration: none;"
+ href="cards/Lucullus.html"><span
+ class="statesman"> 29B Lucullus        5  3 10  3    </span><br></a><a
+ onclick="return popup(this, 'Pompey')" style="text-decoration: none;"
+ href="cards/Pompey.html"><span
+ class="statesman"> 30A Pompey       dr+1  3  9  5  5 </span></a></pre>
+<h4>13 Concessions</h4>
+<pre><a onclick="return popup(this, 'Armaments')"
+ style="text-decoration: none;"
+ href="cards/Armaments.html"><span
+ class="concession"> Armaments </span></a><br><a
+ onclick="return popup(this, 'EgyptianGrain')"
+ style="text-decoration: none;"
+ href="cards/EgyptianGrain.html"><span
+ class="concession"> Egyptian Grain </span></a><br><a
+ onclick="return popup(this, 'HarborFees')"
+ style="text-decoration: none;"
+ href="cards/HarborFees.html"><span
+ class="concession"> Harbor Fees </span></a><br><a
+ onclick="return popup(this, 'LandCommissioner')"
+ style="text-decoration: none;"
+ href="cards/LandCommissioner.html"><span
+ class="concession"> Land Commissioner </span></a><br><a
+ onclick="return popup(this, 'Mining')" style="text-decoration: none;"
+ href="cards/Mining.html"><span
+ class="concession"> Mining </span></a><br><a
+ onclick="return popup(this, 'ShipBuilding')"
+ style="text-decoration: none;"
+ href="cards/ShipBuilding.html"><span
+ class="concession"> Ship Building </span></a><br><a
+ onclick="return popup(this, 'SicilianGrain')"
+ style="text-decoration: none;"
+ href="cards/SicilianGrain.html"><span
+ class="concession"> Sicilian Grain </span></a><br><a
+ onclick="return popup(this, 'TaxFarmer1')"
+ style="text-decoration: none;"
+ href="cards/TaxFarmer1.html"><span
+ class="concession"> Tax Farmer 1 </span></a><br><a
+ onclick="return popup(this, 'TaxFarmer2')"
+ style="text-decoration: none;"
+ href="cards/TaxFarmer2.html"><span
+ class="concession"> Tax Farmer 2 </span></a><br><a
+ onclick="return popup(this, 'TaxFarmer3')"
+ style="text-decoration: none;"
+ href="cards/TaxFarmer3.html"><span
+ class="concession"> Tax Farmer 3 </span></a><br><a
+ onclick="return popup(this, 'TaxFarmer4')"
+ style="text-decoration: none;"
+ href="cards/TaxFarmer4.html"><span
+ class="concession"> Tax Farmer 4 </span></a><br><a
+ onclick="return popup(this, 'TaxFarmer5')"
+ style="text-decoration: none;"
+ href="cards/TaxFarmer5.html"><span
+ class="concession"> Tax Farmer 5 </span></a><br><a
+ onclick="return popup(this, 'TaxFarmer6')"
+ style="text-decoration: none;"
+ href="cards/TaxFarmer6.html"><span
+ class="concession"> Tax Farmer 6 </span></a><br></pre>
+<h4>5 Laws</h4>
+<pre><a style="text-decoration: none;"
+ onclick="return popup(this, 'GabinianLaw')"
+ href="cards/GabinianLaw.html"><span
+ class="redcard"> Gabinian Law </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'JulianLaw')"
+ href="cards/JulianLaw.html"><span
+ class="redcard"> Julian Law </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'ManilianLaw')"
+ href="cards/ManilianLaw.html"><span
+ class="redcard"> Manilian Law </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'PlautianPapirianLaw')"
+ href="cards/PlautianPapirianLaw.html"><span
+ class="redcard"> Plautian-Papirian Law </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'VatinianLaw')"
+ href="cards/VatinianLaw.html"><span
+ class="redcard"> Vatinian Law </span></a><br></pre>
+<h4>20 Intrigue</h4>
+<pre><a onclick="return popup(this, 'Proscription')"
+ style="text-decoration: none;"
+ href="cards/Proscription.html"><span
+ class="redcard-l"> Proscription </span></a><br><a
+ onclick="return popup(this, 'CleopatraVII')"
+ style="text-decoration: none;"
+ href="cards/CleopatraVII.html"><span
+ class="redcard-l"> Cleopatra VII </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'MurderOfATribune')"
+ href="cards/MurderOfATribune.html"><span
+ class="redcard-l"> Murder of a Tribune </span></a><br><a
+ style="text-decoration: none;" onclick="return popup(this, 'Graft')"
+ href="cards/Graft.html"><span
+ class="redcard-l"> Graft </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'InfluencePeddling')"
+ href="cards/InfluencePeddling.html"><span
+ class="redcard-l"> Influence Peddling </span></a><br><a
+ style="text-decoration: none;" onclick="return popup(this, 'Assassin')"
+ href="cards/Assassin.html"><span
+ class="redcard-l"> Assassin </span></a> x3<br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'SecretBodyguard')"
+ href="cards/SecretBodyguard.html"><span
+ class="redcard-l"> Secret Bodyguard </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'OpenBodyguard')"
+ href="cards/OpenBodyguard.html"><span
+ class="redcard-l"> Open Bodyguard </span></a><br><a
+ style="text-decoration: none;" onclick="return popup(this, 'Tribune')"
+ href="cards/Tribune.html"><span
+ class="redcard-l"> Tribune </span></a> x4<br><br>plus 6 Intrigue cards from the Early/Middle Republic<br></pre>
+<h4>13 Wars</h4>
+<pre><a style="text-decoration: none;"
+ onclick="return popup(this, '1stMithridaticWar')"
+ href="cards/1stMithridaticWar.html"><span
+ class="activewar"> 1st Mithridatic War 10/5 D13:S14 </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, '2ndMithridaticWar')"
+ href="cards/2ndMithridaticWar.html"><span
+ class="inactivewar"> 2nd Mithridatic War 6/4 D16:S17 </span></a><br><a
+ onclick="return popup(this, '3rdMithridaticWar')"
+ style="text-decoration: none;"
+ href="cards/3rdMithridaticWar.html"><span
+ class="activewar"> 3rd Mithridatic War 8/6 D14:S11,17 </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'ParthianWar')"
+ href="cards/ParthianWar.html"><span
+ class="activewar"> Parthian War 12/2 D12:S18 </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, '2ndGallicWar')"
+ href="cards/2ndGallicWar.html"><span
+ class="inactivewar"> 2nd Gallic War 12/0 D12:S16 </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, '3rdGallicWar')"
+ href="cards/3rdGallicWar.html"><span
+ class="activewar"> 3rd Gallic War 15/0 D10:S17 </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'SocialWar')"
+ href="cards/SocialWar.html"><span
+ class="activewar"> Social War 10/0 D13:S16 </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, '2ndCilicianPirates')"
+ href="cards/2ndCilicianPirates.html"><span
+ class="inactivewar"> 2nd Cilician Pirates - Drought 3/2/6 D18:S12 </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'AlexandrianWar')"
+ href="cards/AlexandrianWar.html"><span
+ class="activewar"> Alexandrine War - Drought 2/2/10 D18:S17 </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'SertorianRevolt')"
+ href="cards/SertorianRevolt.html"><span
+ class="activewar"> Sertorian Revolt 8/2 D14:S13 </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'GladiatorSlaveRevolt')"
+ href="cards/GladiatorSlaveRevolt.html"><span
+ class="activewar"> Gladiator Slave Revolt 6/0 D6:S16 </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'InvasionOfGermany')"
+ href="cards/InvasionOfGermany.html"><span
+ class="inactivewar"> Invasion of Germany 6/0 D16:S18 </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'InvasionOfBritain')"
+ href="cards/InvasionOfBritain.html"><span
+ class="inactivewar"> Invasion of Britain 4/2 D5:S17 </span></a></pre>
+<h4>3 Leaders</h4>
+<pre><a onclick="return popup(this, 'MithridatesVI')"
+ style="text-decoration: none;"
+ href="cards/MithridatesVI.html"><span
+ class="leader"> Mithridates VI +4 D12:S15 </span></a><br><a
+ onclick="return popup(this, 'Spartacus')"
+ style="text-decoration: none;"
+ href="cards/Spartacus.html"><span
+ class="leader"> Spartacus      +5 D11:S14 </span></a><br><a
+ onclick="return popup(this, 'Vercingetorix')"
+ style="text-decoration: none;"
+ href="cards/Vercingetorix.html"><span
+ class="leader"> Vercingetorix  +6 D14:S18 </span></a></pre>
+<h4>3 Events</h4>
+<pre><a onclick="return popup(this, '2ndCatilineConspiracy')"
+ style="text-decoration: none;"
+ href="cards/2ndCatilineConspiracy.html"><span
+ class="event"> 2nd Catiline Conspiracy </span></a><br><a
+ style="text-decoration: none;"
+ onclick="return popup(this, 'PtolemyApionBequest')"
+ href="cards/PtolemyApionBequest.html"><span
+ class="event"> Ptolemy-Apion Bequest </span></a><br><a
+ onclick="return popup(this, 'BithynianBequest')"
+ style="text-decoration: none;"
+ href="cards/BithynianBequest.html"><span
+ class="event"> Bithynian Bequest </span></a></pre>
+44 Red Cards<br>
+49 Black Cards<br>
+93 Total Cards<br>
+<h3>5 Player Game (3 Red Cards) ~11 turns<br>
+</h3>
+Start with:<br>
+5 Senators per player X 5 = 25 Senators<br>
+3 Red Cards per player X 5 = 15 Red Cards<br>
+<br>
+Deck:<br>
+29 Red Cards<br>
+24 Black Cards - 13 Wars<br>
+53 Total Cards<br>
+Red = 55%; War = 25%<br>
+<h3>5 Player Game (4 Red Cards) ~10 turns
+</h3>
+Start with:<br>
+5 Senators per player X 5 = 25 Senators<br>
+4 Red Cards per player X 5 = 20 Red Cards<br>
+<br>
+Deck:<br>
+24 Red Cards<br>
+24 Black Cards - 13 Wars<br>
+48 Total Cards<br>
+Red = 50%; War = 27%<br>
+<h3>6 Player Game (3 Red Cards) ~9 turns
+</h3>
+Start with:<br>
+5 Senators per player X 6 = 30 Senators<br>
+3 Red Cards per player X 6 = 18 Red Cards<br>
+<br>
+Deck:<br>
+26 Red Cards<br>
+19 Black Cards - 13 Wars<br>
+45 Total Cards<br>
+Red = 58%; War = 29%<br>
+<h3>6 Player Game (4 Red Cards) ~8 turns
+</h3>
+Start with:<br>
+5 Senators per player X 6 = 30 Senators<br>
+4 Red Cards per player X 6 = 24 Red Cards<br>
+<br>
+Deck:<br>
+20 Red Cards<br>
+19 Black Cards - 13 Wars<br>
+39 Total Cards<br>
+Red = 51%; War = 33%<br>
+<br>
+</body>
+</html>

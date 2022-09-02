@@ -1,0 +1,273 @@
+p {
+   display: inline;
+}
+
+span.h2 {
+   font-size: 18px;
+   font-weight: bold;
+}
+
+body{
+   text-align: center;
+   background-repeat: repeat-x;
+   background-color: #ffffe0;
+   color: #000330;
+   font-family: Arial,Verdana,Helvetica,Geneva,sans-serif;
+   font-size: 12px;
+}
+
+#nav, #nav ul {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   line-height: 1;
+}
+
+#nav a {
+   display: block;
+}
+
+#nav li {
+   float: left;
+   color: black;
+   font-size: 11px;
+   text-align: left;
+}
+
+#nav li ul {
+   position: absolute;
+   width: 175px;
+   left: -999px;
+   border: solid 1px #096;
+}
+
+#nav li:hover ul {
+   left: auto;
+}
+
+#nav li:hover ul, #nav li.sfhover ul {
+   left: auto;
+}
+
+#nav li ul li {
+   height: 15px;
+   overflow: visible;
+}
+
+#nav li ul li a {
+   width: 175px;
+   color: white;
+   background-color: #096;
+   height: 15px;
+}
+
+#nav li ul li a:hover {
+   color: #096;
+   background-color: white;
+}
+
+#container {
+   text-align: left;
+   margin-left: auto;
+   margin-right: auto;
+   width: 85%;
+}
+
+/*** SECOND LEVEL ***/
+#nav li ul ul {
+   border: 1px solid #06c;
+   margin: -16px 0 0 125px;
+}
+
+#nav li ul li ul li {
+   background-color: #06c;
+   color: white;
+   font-weight: bold;
+   width: 175px;
+   height: 15px;
+}
+
+#nav li ul li ul li a {
+   width: 175px;
+   color: #06c;
+   background-color: white;
+   height: 15px;
+}
+
+#nav li ul li ul li a:hover {
+   color: white;
+   background-color: #06c;
+}
+
+#nav li:hover ul ul, #nav li.sfhover ul ul {
+   left: -999em;
+}
+
+#nav li:hover ul, #nav li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul {
+   left: auto;
+}
+
+#breadcrumbs {
+   color: white;
+   vertical-align: middle;
+   background-image: url('sitebreadcrumbbg.png');
+   font-size: 11px;
+   background-color: #ddd;
+   border: 2px solid #06c;
+   border-top: 0px;
+   padding-left: 5px;
+   height: 14px; 
+}
+
+#breadcrumbs a {
+   color: #096;
+   text-decoration: none;
+}
+
+#content {
+   font-size: 12px;
+   padding: 5px;
+   background-color: #ffffe0;
+   border: 1px solid #06c;
+   clear: both;
+}
+
+#header {
+   text-align:left;
+   background-color: #06c;
+   color: white;
+   font-size: 18px;
+   font-weight: bold;
+   padding: 2px;
+   padding-left: 5px;
+}
+
+#footer{
+   height: 35px;
+   clear: both;
+   padding-left: 5px;
+   padding-top: 2px;
+   background-color: #ddd;
+   border: 1px solid #888;
+   border-top: 0px;
+}
+
+#navbox {
+   text-align: right;
+   vertical-align: top;
+   width: 23%;
+   float: right;
+}
+
+a {
+   color: #096;
+   font-weight: bold;
+}
+
+a:visited, a:link, a:active {
+   text-decoration: none;
+} 
+
+a:hover {
+   text-decoration: underline;
+} 
+
+a.blue_header {
+   color: white;
+}
+
+a.blue_header:link, a.blue_header:visited, a.blue_header:active {
+   text-decoration: none;
+}
+
+a.blue_header:hover {
+   text-decoration: underline;
+}
+
+.blue_header {
+   margin: 0px;
+   padding: 2px;
+   text-align:left;
+   background-color: #06c;
+   color: #ffffe0;
+   font-weight: bold;
+}
+
+.white {
+   margin: 0px;
+   padding: 2px;
+   text-align:left;
+   background-color: white;
+   border: 1px solid #06c;
+}
+
+.grey {
+   padding: 2px;
+   text-align: center;
+   background-color: #cdcdcd;
+   border: 1px solid #06c;
+   font-size: 11px;
+}
+
+.small_text
+{
+   color: #000330;
+   font-family: Arial,Verdana,Helvetica,Geneva,sans-serif;
+   font-size: 10px;
+   font-style: normal;
+}
+
+input
+{
+   border-style: solid; 
+   border-width: 1px;  
+   border-color: #000000;
+   background-color : #C1C1C1;
+   color : #000330;
+   font-size: 11px; 
+   font-family: Arial,Verdana,Helvetica,Geneva,sans-serif;
+}
+
+input.text
+{
+   border-style: solid; 
+   border-width: 1px;  
+   border-color: #000000;
+   background-color : #0066CC;  
+   color : #FFFFE0;
+   font-size: 11px; 
+   font-family: Arial,Verdana,Helvetica,Geneva,sans-serif;
+}
+
+select
+{
+   border-style: solid; 
+   border-width: 1px;  
+   border-color: #000000;
+   background-color : #0066CC;  
+   color : #FFFFE0;
+   font-size: 11px; 
+   font-family: Arial,Verdana,Helvetica,Geneva,sans-serif;
+}
+
+img.thumb {
+   border: 1px solid #096;
+}
+
+td
+{
+   color: #000330;
+   font-family: Arial,Verdana,Helvetica,Geneva,sans-serif;
+   font-size: 12px;
+}
+
+td.thumb {
+   text-align: center;
+   font-size: 10px;
+}
+
+h4 {
+   display: inline;
+   font-size: 14px;
+   color: #f63;
+}

@@ -1,0 +1,16 @@
+# <Province> <Exists> <Developed> <Governor> <Corrupt> <Raid> <Senator> <Faction> <Term>
+africa           1  0  1  1  0 Fabius Wreath 3
+asia             0  0  0  0  0
+bithynia         0  0  0  0  0
+cilicia-cyprus   0  0  0  0  0
+cisalpine gaul   1  1  1  0  0 Sulpicius Forum 1
+crete-cyrene     0  0  0  0  0
+further spain    1  1  0  0  0
+greece           1  1  1  1  0 Licinius Spoon 2
+illyricum        1  1  1  1  0 Valerius Via 3
+narbonese gaul   1  0  1  0  1 Caesar Via 1
+nearer spain     1  1  1  0  0 Calpurnius Forum 1
+sardinia-corsica 1  1  0  0  0
+sicily           1  1  1  1  0 Pompeius Via 3
+syria            0  0  0  0  0
+transalpine gaul 0  0  0  0  0

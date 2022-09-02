@@ -1,0 +1,184 @@
+From: "Peter M. White" <p-white@accesscom.com>
+Subject: Republic of Rome 101
+
+In response to my statement that 90% of the RoR rules are reasonably
+easy to learn, at least through the course of play, I got the email
+request "specify the very difficult '10%' so I can ignore these first
+time around..."  Well, I will see what I can do by outlining what I
+think is important for beginners and giving hints on good house rules. 
+The following is geared towards the raw new beginner.
+
+I will assume you have read through the RoR rules once and tore out a
+little of your hair.  First thing to do is go to a clear table top, with
+a printout of this article in hand, and spread the game out to become
+familiar with the parts.  Ignore the chits for now, they are your basic
+bookkeeping markers.
+
+RoR is an abstract game, so the board is "nothing more" than a handy
+reference sheet plus recordkeeping aid.  The FORUM (The braid bordered
+zone), not to be confused with the Forum Phase, is subdivided into
+different spaces to help keep tract of the status of cards in play.  For
+example, a senator card in the Forum is alive and presently unaligned to
+any faction.  A province card in the Forum does not yet have an assigned
+senator to be its govenor.  Cards are pulled off the Forum and placed in
+front of particular players when acquired by a player faction or
+individual senator.  The Forum itself is neutral ground and any card "in
+play" or otherwise affecting Rome will be in one of the subdivisions.  A
+dead (out of play) senator card also goes to the Forum, but it is placed
+upside down in the Repopulating Rome box to show its status, for
+example.
+
+Now look at the cards.  There are Event cards and Province cards.  The
+Early Republic cards are white-white, some printed red and other black. 
+Put aside the Middle (pink-white) and Late (gray-white) cards.
+
+The next important thing is to get a feel for the general flow of the
+game.  Read the Sequence of Play on a faction card.  The real action
+takes place during the Forum Phase and Senate Phase.  Lets go through
+the SoP.
+
+I.  Mortality Phase
+	Easy.
+
+II.  Revenue Phase
+	For beginners assume everything occurs simultaneously; stop and
+negotiate as necessary.  If someone insists on a precise order, start
+with the HRAO and go clockwise.  (This is the default order for all
+phases.)
+
+III.  Forum Phase
+	This phase is generally straight forward although a lot takes places. 
+Each player will individually go through steps 1-4 in turn, starting
+with the HRAO.
+	1.  For a Random Event just pull the respective card and follow the
+instructions on the gray side.  If the same event happens twice, use the
+pink side.  In general, an event is in effect until the beginning of the
+next turn's Forum phase (with niggling exceptions).  Just read the cards
+and do your best.
+	Drawn Black cards go to the Forum.  Red cards are held in secret and
+played at the player's discretion.
+	2.  Persuasion attempts are the best way to boost your faction and make
+enemies.  You can attempt to take someone else's senator or just take a
+neutral one sitting in the Forum, if any are available.  If you just
+drew a senator card in step 1, be nice and try and take it.  
+	A persuasion attempt is made by a particular senator card against
+another senator card.  The base chance for the offense is the particular
+senator's Oratory Rating plus Influence, minus the base defense.  The
+base value for defense is the Loyalty rating of the target, plus 7 if
+"owned"/aligned, plus number of Talents sitting in the senator's
+personal treasury.  Now spend on bribes to alter the chances of
+success.  The offense spends only from the persuading senator's personal
+treasury, not the faction treasury or any other senator.  The defense
+spends from his own faction treasury, or gets help from the faction
+treasury of any generous ally.  Note the assymetry!  Also, note that
+bribes do not go to the bank like Illuminati, they go to the target
+senator: winner take all.  Whee! [IMPORTANT: the official bribe rules as
+written make no sense, the r.g.b consensus is to do as above.]
+	3. & 4. Easy
+	Note that bids on extra initiatives come from only from a senator's
+personal treasury.  See 7.2 and 3.III.
+
+IV.  Population Phase
+	Easy.
+
+V.  Senate Phase
+	I cannot help you a lot here but these rules you do need to know
+backwards and forwards.
+	The Highest Ranking Available Officer (HRAO) seems like a needless
+complication when first reading the rules, but in time you will learn to
+appreciate that the much subtle and spectacular game play often involves
+shifts in the HRAO (through murder, luck, or subterfuge).  Usually the
+HRAO is the present Rome Consul.  There is actually a completely spelled
+out hierarchy.
+	A typical turn begins by this turn's HRAO, usually last turn's Rome
+Consul, proposing two senators for the new Consuls.  This will often
+involve a lot of wheeling and dealing, especially if the player
+controlling the previous Rome Consul wants another of his senator's to
+be consul.  Offices are the plums in this game, they gain you Influence
+and power.  Influence is what will usually win the game.  So, most
+negotiating is over who gets to hold office.  The two new consuls with
+either agree on who is RC and FC or dice for it.  The new RC runs the
+rest of the Senate Phase. 
+	The player who controls the HRAO runs the Senate Phase.  He can make
+proposals as he wishes, within certain restrictions.  Other players can
+only interfere with his agenda by using a precious Tribune card.  The
+HRAO is allowed to bully other players to an extent: he can state a
+proposal and immediately start forcing players to vote, if they do not
+answer they are assumed to abstain.  All other players can do in defense
+is vote Naye, or Tribune/veto a proposal (or remember a certain player
+is a jerk and prevent him from gaining office again).  A good player as
+HRAO will generally spends a few short minutes negotiating with and
+assessing potential allies and quickly puts out a favorable proposal and
+force a quick vote.  
+	Beginning players should just try and discuss things in a friendly
+fashion and spread the offices around.  Do follow the given order of
+business to the letter.
+	The differences between Field Consul and Rome Consul: (1) RC is higher
+rank and therefore the HRAO (2) the FC must be sent out first to fight a
+war.  Usually the RC is the better office.  But on turns when Rome will
+only be tackling one war, the FC is usually better.  Note that the RC is
+much better on turns that there are two wars to fight.  OTOH, the RC may
+get stuck in a stalemated war or killed, in which case the FC may get
+the glory and control over next turns consul elections.
+	You must completely understand how to use a Tribune card.
+	You must understand how a Landbill vote works, and why they are almost
+never voted down, although they are sometimes vetoed.
+	Exiling a Statesman is rare, so ignore those rules for now.
+	7.37 and subsections: very important for wheeling and dealing in the
+Senate Phase, although the rules apply at all time.  Note that money can
+only be exchanged during the Revenue Phase, and Red card traded during
+the Revolution Phase, while binding agreements can be put in place at
+any time.
+	The Senate Phase is over when the HRAO leaves Rome to fight a war, or
+he declares it over.  Other players can still interject with Tribune
+cards.
+
+
+V.  Combat Phase
+	Strightforward.
+
+VI.  Revolution Phase
+	Assuming you are playing the Early Republic scenario, beginners have no
+business declaring civil wars; ignore those rules for now.
+
+Bizarrely enough, the win/lose condition are actually rather difficult
+to interpret.  Things are much smoother if we ignore civil wars.  To
+boil it down, _everyone_ loses if:
+	1) Rome faces 4 active wars at the end of any turn
+	2) The People Revolt during the Population phase.
+	3) The State treasury goes bankrupt (negative) at any time.  Players
+should watch to make sure a Disaster or Evil Omens event does not
+bankrupt Rome; Rome will gladly accept donations.  For finding a victor,
+just look at 12.1 A, C, and E.  Do note that Influence is the way to win
+the game.  Also note that a high Influence senator must _survive the
+turn_ to seal a victory.  With foresight "unfortunate" accidents can
+sometimes be arranged.
+
+The Early Republic scenario is very tough, especially if you play with
+with 5 or 6 players.  I do not reccomend playing with fewer, except as a
+trial game.  There is something to be said for new players to have a
+couple quick games where Rome collapses so they will know how to protect
+Rome in later tighter games.  After you tire of watching Rome burn, I
+recommend these kinder house rules:
+	1) "Correct" Statesmen nullify _all_ D/S numbers.
+	2)  Matching wars do not increase fleet battle strength, although enemy
+leaders do.
+
+There is a pbem replay in The General volumes 27-4 & 27-5.  Pbem rules
+are somewhat different, but the replay is very enlightening
+nevertheless.  The first issue also has pbem rules.  Also, Roberto
+Ullfig has a very nice RoR page at 
+	http://www.suba.com/~robo/
+The page includes some pbem games in progress.
+
+Once you have the basic rules under your belt, I recommend the
+Provincial Forces advanced rules.  If you do not want to add such
+complexity to civil wars, just the garrison and provincial war rules
+work pretty nicely.
+
+Hope all this helps.  Anyone else have any advice for new players
+wanting to learn?
+
+--Peter
+p-white@accesscom.com
+

@@ -1,0 +1,56 @@
+--- Personal Income
+
+                 Personal    Personal
+Province           Roll       Income   Governor
+-----------------------------------------------------------------------
+africa            (5,-)          4     Corrupt; Fabius (Wreath) +4t
+CISALPINE GAUL    (-,-)          .     Honest
+FURTHER SPAIN     ( , )                No Governor
+GREECE            (6,5)         10     Corrupt; Licinius (Spoon) +10t
+ILLYRICUM         (4,-)          4     Corrupt; Valerius (Via) +4t
+narbonese gaul    ( , )                War/Raid/Disorder
+NEARER SPAIN      (-,-)          .     Honest
+SARDINIA-CORSICA  ( , )                No Governor
+SICILY            (5,-)          9     Corrupt; Pompeius (Via) +9t
+                              ------
+Negative Personal Income Total:  0
+
+--- Province Development
+
+africa           (4+0)=4   does not develop.
+
+--- State Income
+
+                  State        State      Local
+Province           Roll       Income      Taxes
+----------------------------------------------------------
+africa            (3,1)          0         20
+CISALPINE GAUL    (3,1)          3         20
+FURTHER SPAIN     ( , )            
+GREECE            (3,1)          6         40
+ILLYRICUM         (3,-)          3         15
+narbonese gaul    ( , )            
+NEARER SPAIN      (4,-)          5         15
+SARDINIA-CORSICA  ( , )            
+SICILY            (4,-)          6         40
+                              ------
+State Income Totals             23
+
+Provincial Income = State Income + Negative Personal Income: 23 + 0 = 23
+Annual Revenue =
+Force Maintenance =
+Land Bills =
+Active Wars =
+Current State Treasury =
+New State Treasury =
+
+--- Governor Terms
+africa           Fabius       Wreath       :  returns to Rome; Corrupt
+CISALPINE GAUL   Sulpicius    Forum        :  begins Term 2
+FURTHER SPAIN    No Governor                  
+GREECE           Licinius     Spoon        :  begins Term 3; Corrupt
+ILLYRICUM        Valerius     Via          :  returns to Rome; Corrupt
+narbonese gaul   Caesar       Via          :  begins Term 2
+NEARER SPAIN     Calpurnius   Forum        :  begins Term 2
+SARDINIA-CORSICA No Governor                  
+SICILY           Pompeius     Via          :  returns to Rome; Corrupt

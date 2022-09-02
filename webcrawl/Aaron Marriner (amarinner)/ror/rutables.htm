@@ -1,0 +1,183 @@
+<title>Republic of Rome Tables</title>
+<body bgcolor="D2B48C" text="#000000">
+<html><pre>
+--- TABLES
+
+--- Random Events Table
+
+TDR Early Republic     Middle Republic     Late Republic      %chance
+-------------------------------------------------------------------------
+3   Mob Violence       Pretender           Epidemic              0.5   3
+4   Natural Disaster   Storm at Sea        Storm at Sea          1.4   4
+5   Ally Deserts       Ally Deserts        Ally Deserts          2.8   5
+6   Evil Omen          Natural Disaster    Pretender             4.6   6
+7   Refuge             Mob Violence        Natural Disaster      6.9   7
+8   Epidemic           Internal Disorder   Mob Violence          9.7   8
+9   Drought            Drought             Drought              11.6   9
+10  Evil Omens         Evil Omens          Evil Omens           12.5  10
+11  Storm at Sea       Epidemic            Internal Disorder    12.5  11
+12  Manpower Shortage  Manpower Shortage   Barbarian Raids      11.6  12
+13  Allied Enthusiasm  Barbarian Raids     Manpower Shortage     9.7  13
+14  New Alliance       Allied Enthusiasm   Trial of Verres       6.9  14
+15  Rhodian Alliance   New Alliance        Allied Enthusiasm     4.6  15
+16  Enemy Ally Deserts Enemy Ally Deserts  Enemy Ally Deserts    2.8  16
+17  Enemy Leader Dies  Trial of Verres     Enemy Leader Dies     1.4  17
+18  Trial of Verres    Rhodian Alliance    New Alliance          0.5  18
+ 
+--- Games Table
+              Slice &    Blood    Gladiator
+Type            Dice      Fest      Gala
+Cost              7        13        18
+Popularity       +1        +2        +3
+Unrest Level     -1        -2        -3
+
+--- Combat Results Table
+
+TDR*   Result       Losses
+---------------------------------------
+<= 3   Defeat       All
+   4   Defeat       4 Legions/4 Fleets
+   5   Defeat       3 Legions/3 Fleets
+   6   Defeat       2 Legions/2 Fleets
+   7   Defeat       1 Legion/1 Fleet
+   8   Stalemate    5 Legions/5 Fleets
+   9   Stalemate    4 Legions/4 Fleets
+  10   Stalemate    3 Legions/3 Fleets
+  11   Stalemate    2 Legions/2 Fleets
+  12   Stalemate    1 Legion/1 Fleet
+  13   Stalemate    No Losses
+  14   Victory      4 Legions/4 Fleets
+  15   Victory      3 Legions/3 Fleets
+  16   Victory      2 Legions/2 Fleets
+  17   Victory      1 Legion/1 Fleet
+>=18   Victory      No Losses
+
+* Triple Dice Roll + Strength Difference + Commander DRM - 1/Evil Omens
+
+Bonus %Defeat %Stalemate %Victory %Victory
+                                   NoLosses
+-------------------------------------------
+ 0      16.2     67.6     16.2      0.5
+ 1       9.3     64.8     25.9      2.9
+ 2       4.7     57.8     37.5      4.7
+ 3       2.9     48.1     49.0      9.3
+ 4       0.5     37.0     62.1     16.2
+ 5               25.9     74.1     25.9
+ 6               16.2     83.8     37.5
+ 7                9.3     90.7     50.0
+ 8                4.7     95.3     62.5  
+ 9                2.9     97.1     74.1
+10                0.5     99.5     83.8
+11                       100.0     90.7
+12                                 95.3
+13                                 98.1
+14                                 99.5
+15                                100.0
+
+--- Population Table
+
+TDR*    Result
+---------------------------------------
+>=18    -3 Unrest Level
+  17    -2 Unrest Level
+  16    -1 Unrest Level
+  15    No Change
+  14    No Change
+  13    No Change
+  12    No Change
+  11    No Change
+  10    +1 Unrest Level
+   9    +2 Unrest Level
+   8    +3 Unrest Level
+   7    +3 Unrest Level, MS
+   6    +4 Unrest Level
+   5    +4 Unrest Level, MS
+   4    +5 Unrest Level
+   3    +5 Unrest Level, MS
+   2    +5 Unrest Level, NR
+   1    +5 Unrest Level, NR, Mob
+   0    +6 Unrest Level, NR, Mob
+<  0    People Revolt; all players lose
+
+* Triple Dice Roll - Unrest Level + HRAO Popularity - 1/Evil Omen
+
+Adjustments         When
+-1 Victory          immediately after battle
++1 Disaster         immediately after battle
++2 Defeat           immediately after battle
++1 Drought          beginning of Population Phase
++1 Unprosecuted War beginning of Population Phase
+
+--- Land Bills
+Type                   I     II    III
+Number                 1      2      3
+Cost                  20   5/YR  10/YR
+Popularity
+  Sponsor             +2     +2     +4
+  Cosponsor           +1     +1     +2
+  Vote Against        -1     -1     -2
+Unrest Level          -1     -2     -3
+Repeal: Popularity
+  Sponsor             -2     -2     -4
+  Cosponsor           -1     -1     -2
+Unrest Level          +1     +2     +3
+
+--- Popular Appeal Table
+[DR+Popularity]
+Modified DR        Result
+<= 2               Accused Killed
+   3               -16 Votes
+   4               -12 Votes
+   5               -8 Votes
+   6               -4 Votes
+   7               No Change
+   8               +4 Votes
+   9               +8 Votes
+  10               +12 Votes
+  11               +16 Votes
+>=12               Accused Freed*
+
+--- Influence Gains/Losses Summary
+
+Dictator              +7    3 Wars or 1 >= 20
+Consul                +5    Cannot Repeat
+Censor                +5    May Repeat
+Master of Horse       +3    Appointed by Dictator
+
+Conviction            -5    -5 Popularity also
+Successful Prosecutor +1/2 Influence Lost by Defendant
+Faction Leader of
+ caught Assassin      -5    +Major Prosecution
+Unanimous Rejection   -1
+
+Develop Province      +3    Governor
+10T Contribution      +1
+25T Contribution      +3
+50T Contribution      +7
+Victory               +1/2 War Strength/Same Pop Gain
+
+--- Mortality Roll (instead of drawing chits)
+
+Roll a 36 sided dice (by e-mail of course):
+
+1-30   =  Appropriate Senator Dies
+31-34  =  No Death
+35-36  =  Roll two more times (ad infinitum)
+
+You must keep track by hand which numbers are rolled; except for 35-36,
+ignore a roll that duplicates a previous roll (i.e. roll again).
+
+--- Legion Allegiance
+
+Early Republic:  5-6
+Middle Republic: 4-6
+Late Republic:   3-6
+drm: 1 Talent each
+
+--- Assassination Table
+
+Modified dr       Result
+>=5               Killed
+3-4               No Effect
+<=2               Caught
+</html></pre>

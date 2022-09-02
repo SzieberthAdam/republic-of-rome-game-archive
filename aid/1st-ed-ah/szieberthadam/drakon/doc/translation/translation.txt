@@ -1,0 +1,533 @@
+﻿
+Файл
+File
+Fájl
+
+================================================
+
+Новый
+New
+Novij
+
+Открыть лист(ы) ...
+Open sheet(s) ...
+Otkrit líszt(i) ...
+
+Открыть папку ...
+Open folder ...
+Otkrit pápkú ...
+
+Сохранить лист
+Save sheet
+Szohránít líszt
+
+Сохранить лист как ...
+Save sheet as ...
+Szohránít líszt kák ...
+
+Сохранить все листы
+Save all sheets
+Szohránít Vszje líszt
+
+------------------------------------------------
+
+Открыть текстовый файл ...
+Open text file ...
+Otkrit tjeksztovszj fájl ...
+
+Сохранить текст в файле как ...
+Save tjext file as ...
+Szohránít tekszt v fájle kák ...
+
+------------------------------------------------
+
+Открыть графический файл ...
+Open image file ...
+Otkrit gráfícsjeszkíj fájl ...
+
+Копировать изображение в буфер
+Copy image to clipboard
+Kopírovát ízobrázsjeníje v búfjer
+
+Сохранить изображение в файле как ...
+Save image file as ...
+Szohránít ízobrázsjeníje v fájlje kák ...
+
+------------------------------------------------
+
+Открыть или выполнить файл ...
+Open or execute file ...
+Otkrit ílí vipolnít fájl ...
+
+------------------------------------------------
+
+Выход
+Exit
+Vihod
+
+
+################################################
+################################################
+################################################
+
+
+Проект
+Project
+Projekt
+
+================================================
+
+Выбрать лист ... проекта
+Select the project sheet
+Vibrát líszt ... projektá
+
+------------------------------------------------
+
+Статистика
+Statistics
+Sztátísztíká
+
+------------------------------------------------
+
+Закрыть проекта
+Close project
+Zákrit projektá
+
+
+################################################
+################################################
+################################################
+
+
+Лист
+Sheet
+Líszt
+
+================================================
+
+Выбрать версию ... листа
+Select the version of the sheet
+Vibrát vjerszíju ... lísztá
+
+Сделать версию текущей
+Make current version
+Szdjelát vjerszíju tjekúscsjej
+
+Удалить предыдущие версии
+Remove previous versions
+Údálít prjedidúscsíje Vjerszíí
+
+------------------------------------------------
+
+Закрыть лист
+Close sheet
+Zákrit líszt
+
+Удалить файл листа
+Delete the sheet file
+Údálít fájl lísztá
+
+------------------------------------------------
+
+- Только чтение файла листа
+- Read-only sheet file
+- Tolko cstjeníje fájlá lísztá
+
+------------------------------------------------
+
+- Лист сдвигать от вкладок  :::  Вкладки не будут перекрывать выбранный элимент на листе
+- Move sheet from tab  :::  The tabs will not overlap on the sheet selected eliment
+- Líszt szdvígát ot vkfádok
+
+
+################################################
+################################################
+################################################
+
+
+Закладки
+Bookmarks
+Zákládkí
+
+================================================
+
+- Вставить / удалить
+- Insert / Delete
+- Vsztávít / údálít
+
+Удалить все
+Delete all
+Údálít vszje
+
+------------------------------------------------
+
+Перейти к закладке ...
+Go to bookmark ...
+Pjerjejtí k zákládkje ...
+
+
+################################################
+################################################
+################################################
+
+
+Правка
+Correction
+Pravka
+
+================================================
+
+Выделить весь текст
+Select all text
+Vidjelít vjesz tjekszt
+
+Копировать выделенный текст
+Copy selected text
+Konírovat vidjeljennij tjekszt
+
+Выделить идентификатор
+Select ID
+Vidjelít ídjentífíkátor
+
+Выполнить выделенный текст
+Execute selected text
+Vipolnít vidjeljennij tjekszt
+
+------------------------------------------------
+
+Вставить в текст •
+Paste •
+Vsztávít v tjekszt •
+
+Вставить в текст дату и время
+Paste date and time
+Vsztávít v tjekszt dátú í vrjemja
+
+Вставить в текст имя файла листа
+Paste sheet name
+Vsztávít v tjekszt ímja fájlá lísztá
+------------------------------------------------
+
+Очистить
+Clean
+Ocsísztít
+
+------------------------------------------------
+
+Шрифт во вкладках ...
+Select font ...
+Sríft vo vkládkah ...
+
+Шрифт во вкладках по умолчанию
+Select default font
+Sríft vo vkládkah po úmolcsáníju
+
+
+################################################
+################################################
+################################################
+
+
+Найти
+Find
+Nájtí
+
+================================================
+
+текст ... на листе
+Text in sheet
+Tjekszt ... na lísztje
+
+номер ... на листе
+Number in sheet
+Nomjer ... na lísztje
+
+А-, Б-, П-тексты
+A-, B-, P-text
+Á-, B-, P-tjekszti
+
+иконы с флагом
+Ikon with flag
+Íkoni sz flágom
+
+------------------------------------------------
+
+текст ... в проекте
+Text in project
+Tjekszt ... v projektje
+
+------------------------------------------------
+
+текст ... во вкладке
+Text in tab
+Tjekszt ... vo vkládkje
+
+
+################################################
+################################################
+################################################
+
+
+Вид
+View
+Víd
+
+================================================
+
+- Программирование
+- Programming
+- Programmírovaníje
+
+- Просмотр П-текста
+- View P-text
+- Proszmotr P-tjeksztá
+
+------------------------------------------------
+
+Плакат / чертеж
+Poster / Drawing
+Plákát / Cjsertjezs
+
+------------------------------------------------
+
+- Номера
+- Numbers
+- Nomjerá
+
+- А-, Б-, П-, С-тексты
+- A-, B-, P-, C-texts
+- Á-, B-, P-, Sz-tjekszti
+
+- Адрес --- Ветка
+- Branch --- Address
+- Ádrjesz --- Vjetká
+
+
+################################################
+################################################
+################################################
+
+
+Программирование
+Programming
+Programmírovaníje
+
+================================================
+
+Собрать программный код листа
+Assemble the code sheet
+Szobrát prográmmnij kod lisztá
+
+Собрать программный код проекта
+Assemble the code project
+Szobrát prográmmnij kod projektá
+
+------------------------------------------------
+
+- собирать без Маршрутного транслятора
+- Collect without route translator
+- szobírát bjez Mársrútnogo tránszljatorá
+
+------------------------------------------------
+
+- и сохранить все листы
+- Save all sheets
+- Í szohránít vsze líszti
+
+- и выполнить Dragon.bat
+- Execute Dragon.bat
+- Í vipolnít Dragon.bat
+
+------------------------------------------------
+
+- сообщение "...... Нет текста" в комментарий
+- The message "No text ......" comment
+- Szóbszcsjeníje "...... Net teksztá" v kommentáríj
+
+- с трассировкой икон с флагами - номер
+- Tracing icons with number flags
+- sz trásszírovkoj íkon sz flágámí - nomer
+
+
+- с трассировкой икон с флагами - номер и текст
+- Tracing icons with number and text flags
+- sz trásszírovkoj íkon sz flágámí - nomer í tjekszt
+
+
+################################################
+################################################
+################################################
+
+
+Diagram right click menu
+
+================================================
+
+Вставить схему из буфера
+Insert diagram of buffer
+Vsznávít szhjemú íz búfjerá
+
+------------------------------------------------
+
+Силуэт
+Silhouette
+Szílúet
+
+Примитив
+Primitive
+Prímítív
+
+Гном
+gnome
+Gnom
+
+------------------------------------------------
+
+Масштаб листа
+Scale sheet
+Mászstáb lísztá
+
+> Больше (+)
+> Larger (+)
+> Bolsje (+)
+
+> Меньше (-)
+> Smaller (-)
+> Mjense (-)
+
+> Исходный (*)
+> Original (*)
+> Íszhodnij (*)
+
+------------------------------------------------
+
+Удалить флаги икон
+Remove flag icon
+Údálít flágí íkon
+
+Обновить номера
+Refresh number
+Obnovít nomjerá
+
+Установить исходный цвет икон листа
+Set the original color icons sheet
+Úsztánovít íszhodnij cvjet íkon lísztá
+
+Шрифт листа ...
+Font list ...
+Sríft lísztá ...
+
+Шрифт листа по умолчанию
+Default Font sheet
+Sríft lísztá po úmolcsánjú
+
+Обновить лист
+Refresh list
+Obnovít líszt
+
+------------------------------------------------
+
+Получить листинг листа
+Get a sheet listing
+Polúcsít lísztíng lísztá
+
+Получить сопроводительную информацию
+Get background information
+Polúcsít szopovodítjelnújú ínformácíjú
+
+- записать маршрут с флагами
+- Record the route with flags
+- Zápíszát mársrút sz flágámí
+
+
+################################################
+################################################
+################################################
+
+
+Primitive title rigt click menu
+
+================================================
+
+Bернуться к иконе вызова (<-, ->)
+Back to sheet of caller icon (<-, ->)
+Vjernútszja k íkonje vizová (<-, ->)
+
+------------------------------------------------
+
+Копировать икону
+Copy icon
+Kopírovat íkonú
+
+Заменить икону
+Replace icon
+Zámjenít íkonú
+
+------------------------------------------------
+
+Вставить Комментарий
+Insert Comment
+Vsztávít Kommjentáríj
+
+Вставить Событие  @@@  Команда от параллельного процесса, сигнал или внешнее условие изменения маршрута выполнения. Обработка события.
+Insert Event  @@@ A command from the parallel process, an external signal or a condition rerouting execution. Processing events.
+Vsztávít Szobitíje
+
+Вставить Параметры
+Insert Options
+Vsztávít Párámjetri
+
+Вставить Комментарий
+Insert Comment
+Vsztávít Kommjentáríj
+
+------------------------------------------------
+
+Установить последовательность номеров
+Set the sequence of numbers
+Úsztánovít poszljedovátjelnoszt nomjerov
+
+------------------------------------------------
+
+Ширина иконы ...
+Icon width ...
+Síríná íkoni ...
+
+> Больше (+)
+> Larger (+)
+> Bolsje (+)
+
+> Меньше (-)
+> Smaller (-)
+> Mjense (-)
+
+> Исходная (*)
+> Initial (*)
+> Íszhodnája (*)
+
+Цвет иконы ...
+Icon color ...
+Cvjet íkoni ...
+
+> Установить и сохранить (/)
+> Set and maintain (/)
+> Úsztánovít í szohránít (/)
+
+> Копировать (Shift+/)
+> Copy (Shift+/)
+> Kopírovát (Shift+/)
+
+> Заменить (Ctrl+/)
+> Replace (Ctrl+/)
+> Zámjenít (Ctrl+/)
+
+> Исходный (Shift+Ctrl+/)
+> Original (Shift+Ctrl+/)
+> Íszhodnij (Shift+Ctrl+/)
+
+
+################################################
+################################################
+################################################
+
+

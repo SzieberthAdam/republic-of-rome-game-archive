@@ -1,0 +1,88 @@
+REPUBLIC OF ROME PBEM PRIMER
+----------------------------
+
+Abbreviations:
+  dr -> roll one die
+  DR -> roll two dice
+  TDR -> roll three dice
+  HRAO -> Highest Ranking Available Officer
+
+In the Republic of Rome you control a faction of senators in the Roman Senate. Your goal is to 
+work with the other senators to keep Rome from being destroyed while at the same time trying to 
+gain the most influence and power. At the beginning of the game you will be dealt three senator 
+cards which compromises your faction. Your senators will generate income and give you the ability 
+to vote in the Senate. They each have four statistics: Military, Oratory, Loyalty, and Influence. 
+Influence fluctuates during the game, and the higher it goes, the better. You will select a 
+faction leader out of your starting three senators.
+
+There are several other types of cards in the game. Cards with red text are held until the player 
+wishes to play them. Cards with black text are typically played immediately upon draw.
+
+   a. Wars: Represent enemy states. Must be fought or run the risk of Rome falling to them.
+   b. Concessions: Played on a senator to increase their personal income.
+   c. Intrigue: Played at various times to distrupt other players (typically).
+   d. Leaders: Increase the power of a matching war.
+   e. Statesmen: Similar to senators.
+   f. Events: Random events that occur during the forum phase and last for a turn.
+
+Here's a brief outline of the turn sequence:
+1. MORTALITY PHASE: A counter is drawn randomly to see if any senators have died.
+2. REVENUE PHASE: 
+   a. Each senator gains income. Governors also have a few extra things to do.
+   b. The Republic itself also generates income, pays for wars, pays for unit upkeep, etc. Once 
+      that's finished, senators are allowed to donate their personal money to the state. Doing so 
+      keeps the republic afloat and can possibly gain that senator some influence.
+   c. You can transfer money to and from senators and the faction treasury.
+3. FORUM PHASE:
+   a. Any event cards in play are discarded.
+   b. Each player in turn rolls two dice. If you roll a seven a random event occurs. Otherwise
+      you draw a card from the deck. If the card has black text, you play it at once, if it 
+      has red text you keep it in your hand.
+   c. Attempt to persuade a senator to your faction (the senator can be in another faction
+      or be unaligned).
+   d. You may have one senator attempt to attract or pressure a Knight. Knights give senators
+      extra votes and money.
+   e. Lastly you can either change faction leaders, sponsor games, or end your turn.
+      (b, c, and d are called your Initiative)
+   f. We roll for every card in the Curia (every inactive senator, concession, and enemy leader).
+      On a roll of 5 or 6, they are activated.
+4. POPULATION PHASE:
+   a. Unrest is increased by 1 for each drought, unprosecuted war, and pirate in play.
+   b. The unrest level is modified by a population triple die roll.
+5. SENATE PHASE: (Easily the most complex phase where all voting goes on)
+   a. Elect the two new Consuls
+   b. Elect the Censor, and have them perform any prosecutions
+   c. Elect Governors to vacant provinces. Provinces are created when wars are defeated.
+   d. Conduct other business (e.g., raise units for war)
+6. COMBAT PHASE: Resolve any combat.
+7. REVOLUTION PHASE:
+   a. Play, trade or discard cards.
+
+One of the main ways to gain influence is to get your senators voted into office. The three most 
+common offices are Rome Consul, Field Consul and Censor. Senators are nominated, and then the 
+entire Senate votes on the nominations. Rome Consuls run the senate. They nominate senators and 
+choose the order in which everyone votes. Field Consuls get sent off to fight current wars. 
+Censors prosecute other senators for a variety of reasons. There is also a dictator and a master 
+of horse, but we'll get into them later. They appear much more infrequently. Rome Consuls are 
+ranked higher than Field Consuls who are in turn ranked higher than Censors.
+
+The game can end in several ways:
+   a. Rome runs out of money (everyone loses)
+   b. Rome is overrun by wars (everyone loses)
+   c. The people revolt and kill all the senators (everyone loses)
+   d. One senator gains 35 Influence (that senator's faction wins)
+   e. One senator is elected Consul for Life (that senator's faction wins)
+   f. One senator revolts against Rome and wins (will not happen in our game as no one should even 
+                                                 consider this route)
+
+Everyone will need to sign up for ACTS which is a PBEM game manager. This will allow us to draw, 
+trade and discard cards, as well as request dice rolls. You will keep your cards in the game I'll 
+set up on this site (it's free and easy). 
+
+   http://acts.warhorsesim.com
+
+We can do email communications a couple different ways. We can do just regular email or I can set 
+up a dummy Diplomacy game on my site where we'll be able to send messages to each other that way. 
+The benefit of using the site is that you won't need to archive the emails that come in, and it 
+might be easier to keep track of who is who. The benefit of using regular email is, of course, 
+that it removes an extra layer (namely the website).
